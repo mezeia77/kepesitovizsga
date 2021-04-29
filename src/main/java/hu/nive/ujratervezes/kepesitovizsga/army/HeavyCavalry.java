@@ -16,7 +16,6 @@ public class HeavyCavalry implements MilitaryUnit{
         }
         return damage;
     }
-
     @Override
     public void sufferDamage(int damage) {
         vitality-=damage/2;

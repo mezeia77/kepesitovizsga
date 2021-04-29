@@ -4,7 +4,6 @@ public interface MilitaryUnit {
 
 
     int doDamage();
-
     void sufferDamage(int damage);
 
 }

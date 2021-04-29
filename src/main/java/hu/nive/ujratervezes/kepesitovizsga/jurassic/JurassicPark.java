@@ -36,7 +36,6 @@ public class JurassicPark {
         } catch (SQLException sqlException) {
             throw new IllegalStateException("No data found", sqlException);
         }
-
         for(Dinosaur d:dinosaurs){
             if(d.getExpected()<d.getActual()){
                 result.add(d.getName());

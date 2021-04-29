@@ -11,7 +11,6 @@ public class Swordsman implements MilitaryUnit{
     public Swordsman(boolean armored) {
         this.armored = armored;
     }
-
     @Override
     public int doDamage() {
         return damage;

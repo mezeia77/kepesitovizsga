@@ -18,7 +18,6 @@ public class Dinosaur {
     public int getExpected() {
         return expected;
     }
-
     public int getActual() {
         return actual;
     }

@@ -16,7 +16,6 @@ public class Archer implements MilitaryUnit{
     public void sufferDamage(int damage) {
         vitality-=damage;
     }
-
     public int getHitPoints() {
         return vitality;
     }

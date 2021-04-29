@@ -22,7 +22,6 @@ public class Army {
         }
         return result;
     }
-
     public void damageAll(int i) {
         List<MilitaryUnit> temp = new ArrayList<>();
         MilitaryUnit militaryUnit;

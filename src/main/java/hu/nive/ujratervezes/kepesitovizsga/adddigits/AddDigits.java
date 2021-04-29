@@ -2,7 +2,7 @@ package hu.nive.ujratervezes.kepesitovizsga.adddigits;
 
 public class AddDigits {
     public int addDigits(String s) {
-        if(s==null || "".equals(s)){
+        if(s==null  || "".equals(s)){
             return -1;
         }
         int result = 0;
@@ -12,7 +12,6 @@ public class AddDigits {
                 result+=c-48;
             }
         }
-
         return result;
     }
 }

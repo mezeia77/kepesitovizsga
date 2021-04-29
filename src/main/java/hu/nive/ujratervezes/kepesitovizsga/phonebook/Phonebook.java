@@ -22,6 +22,5 @@ public class Phonebook {
         } catch (IOException ioException) {
             throw new IllegalStateException("File not found", ioException);
         }
-
     }
 }
